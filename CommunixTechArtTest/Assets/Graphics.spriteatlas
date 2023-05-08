@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Graphics
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: cd72a70a426ea624c92840e90cc257f4, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: bf6f8a6024364bf45a8f597ff9ee49a2, type: 3}
+  - {fileID: 21300000, guid: ca01c46181134c340af38b578c2035a2, type: 3}
+  - {fileID: 21300000, guid: 2c7c6c93eaee06c488ad7daabdc0c595, type: 3}
+  - {fileID: 21300000, guid: d00c85a44cfe6a347829c47f5a5c3070, type: 3}
+  - {fileID: 21300000, guid: 61f86676ca4a6304e92f7598cc7171f9, type: 3}
+  - {fileID: 21300000, guid: 33b6b2b66995f8f48b84d1ed60ff8de2, type: 3}
+  - {fileID: 21300000, guid: d852f559f227500459725397a3379cfd, type: 3}
+  - {fileID: 21300000, guid: 39c1634b8b4ded549bb23987c6fb83c0, type: 3}
+  - {fileID: 21300000, guid: f9f55e1d31eb5034eb456788955f4bf9, type: 3}
+  - {fileID: 21300000, guid: 65c74c8dbc95b6c408b92a6630fa9d95, type: 3}
+  - {fileID: 21300000, guid: e49f04edc7c25d64499d6d9c8e14d45e, type: 3}
+  - {fileID: 21300000, guid: 20461d8efd214304f86900935b48c0b6, type: 3}
+  - {fileID: 21300000, guid: 8e473c0fdff14d94b893af76ccc04820, type: 3}
+  - {fileID: 21300000, guid: 779863dff1f0422458268e2c40704bfe, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - header_bg
+  - btn_blue
+  - Superboost_icon
+  - Bet_boost_icon
+  - rays copy
+  - tmp_gradient
+  - PvP_icon
+  - glow
+  - coin_bg
+  - bear_atlas
+  - coin_icon
+  - btn_green
+  - victory
+  - bg
+  m_RenderDataMap: {}
+  m_Tag: Graphics
+  m_IsVariant: 0
