@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 56206237}
   - component: {fileID: 56206236}
   - component: {fileID: 56206238}
+  - component: {fileID: 56206239}
   m_Layer: 5
   m_Name: Victory
   m_TagString: Untagged
@@ -307,6 +308,26 @@ MonoBehaviour:
   optionalRotationMode: 0
   optionalScrambleMode: 0
   optionalString: 
+--- !u!95 &56206239
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56206234}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &77833005
 GameObject:
   m_ObjectHideFlags: 0
@@ -7042,7 +7063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43, y: 917}
+  m_AnchoredPosition: {x: -43, y: 1022}
   m_SizeDelta: {x: 900, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1406535009
@@ -8185,6 +8206,8 @@ PlayableDirector:
     value: {fileID: 1847378204}
   - key: {fileID: 669506150891671744, guid: 39218074c686f84468799ad961409bd3, type: 2}
     value: {fileID: 1393007884}
+  - key: {fileID: -1133550883595276369, guid: 39218074c686f84468799ad961409bd3, type: 2}
+    value: {fileID: 56206239}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1917347060
@@ -8518,6 +8541,10 @@ PrefabInstance:
     - target: {fileID: 2350598530847400309, guid: 40b042fcd73d1e64c9924cbf851f6dd0, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.9996377
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350598530850224679, guid: 40b042fcd73d1e64c9924cbf851f6dd0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 105
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40b042fcd73d1e64c9924cbf851f6dd0, type: 3}
